@@ -1,0 +1,10 @@
+# ninja log v5
+1	1438	1677748801751045400	CMakeFiles/OnlineBookReader.dir/main.cpp.o	e51eb9416e0df6ef
+2	1487	1677748801800611800	CMakeFiles/OnlineBookReader.dir/SourceFiles/UtilitieFunctions.cpp.o	5d7408d92d1938f8
+1	13	1677747659428732600	CMakeFiles/OnlineBookReader.dir/SourceFiles/BookManager.cpp.o	eb4b65c5f47278f7
+1	15	1677747659430805100	CMakeFiles/OnlineBookReader.dir/SourceFiles/UserManager.cpp.o	69ee9ce9c5826488
+0	12	1677747659427641000	CMakeFiles/OnlineBookReader.dir/SourceFiles/Book.cpp.o	42c215fd50c92dd6
+0	24	1677749950344836000	build.ninja	d4b39d780d749707
+0	12	1677747659427712300	CMakeFiles/OnlineBookReader.dir/SourceFiles/User.cpp.o	a39b86aa9634369a
+1487	1558	1677748801870744300	OnlineBookReader	861534d7ecf22a79
+1	15	1677747659430648000	CMakeFiles/OnlineBookReader.dir/SourceFiles/OnlineReader.cpp.o	c2d4f2532b328271
