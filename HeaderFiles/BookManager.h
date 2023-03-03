@@ -1,0 +1,8 @@
+//
+// Created by ahmed-kashkoush on 3/2/23.
+//
+
+#ifndef ONLINEBOOKREADER_BOOKMANAGER_H
+#define ONLINEBOOKREADER_BOOKMANAGER_H
+
+#endif //ONLINEBOOKREADER_BOOKMANAGER_H
