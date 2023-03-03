@@ -2,13 +2,10 @@
 #### I want to finish this project in a week
 * Day #1:
   * Design
-      *  UML   Classes 
-      * Header Files
-  * Implement Utilities and menus
+      *  UML   Classes `It's Note a one time Task`
 * Day #2 :
   * Implement User Class
 * Day #3:
-  * Implement Book Class
   * Redesign UML Classes
 * Day #4:
     * Type extensions of OnlineReaderSystem
@@ -21,6 +18,10 @@
   * Debug and test the whole Project
 
 # Finished
+  * [x] Implement Utilities and menus
+  * [x] Structure Header Files
+  * [x] Implement Book Class
+
 # Notes
 1. Testing
    * Test Your system after each session
