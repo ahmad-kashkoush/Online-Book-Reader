@@ -2,11 +2,15 @@
 #### I want to finish this project in a week
 * Day #1:
   * Design
-      *  UML   Classes `It's Note a one time Task`
+    *  UML   Classes `It's Not a one time Task`
+      * Design After Simple Features
+       ![image](CamScanner 03-04-2023 12.04.jpg)
 * Day #2 :
-  * Implement User Class
 * Day #3:
-  * Redesign UML Classes
+  * design UML Classes **Managers, System**
+  * Type OnlineReader Extentions
+  * Type UserManager Extensions 
+  * Implement Basic UserManager Features
 * Day #4:
     * Type extensions of OnlineReaderSystem
     * Determine Operation Base  **_User or Book_**
@@ -21,6 +25,7 @@
   * [x] Implement Utilities and menus
   * [x] Structure Header Files
   * [x] Implement Book Class
+  * [x] Implement User Class
 
 # Notes
 1. Testing
