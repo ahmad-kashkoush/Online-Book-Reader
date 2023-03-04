@@ -4,7 +4,7 @@
   * Design
     *  UML   Classes `It's Not a one time Task`
       * Design After Simple Features
-       ![image](CamScanner 03-04-2023 12.04.jpg)
+       ![image]([CamScanner 03-04-2023 12.04.jp](https://github.com/ahmad-kashkoush/Online-Book-Reader/blob/main/CamScanner%2003-04-2023%2012.04.jpg)
 * Day #2 :
 * Day #3:
   * design UML Classes **Managers, System**
