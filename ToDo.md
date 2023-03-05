@@ -1,26 +1,17 @@
 # ToDo:
 #### I want to finish this project in a week
 * Day #1:
+* Day #2 :
+* Day #3:
+* Day #4:
+* Day #5:
+* Day #6:
   * Design
     *  UML   Classes `It's Not a one time Task`
       * Design After Simple Features
-<<<<<<< HEAD
        ![image](CamScanner%2003-04-2023%2012.04.jpg)
-=======
-       ![image]([CamScanner 03-04-2023 12.04.jp](https://github.com/ahmad-kashkoush/Online-Book-Reader/blob/main/CamScanner%2003-04-2023%2012.04.jpg)
->>>>>>> refs/remotes/origin/main
-* Day #2 :
-* Day #3:
-  * design UML Classes **Managers, System**
-  * Type OnlineReader Extentions
-  * Type UserManager Extensions 
-  * Implement Basic UserManager Features
-* Day #4:
-    * Type extensions of OnlineReaderSystem
-    * Determine Operation Base  **_User or Book_**
-* Day #5:
+
   * Implement UserManager
-* Day #6:
   * Implement BooksManager
 * Day #7:
   * Debug and test the whole Project
@@ -30,6 +21,11 @@
   * [x] Structure Header Files
   * [x] Implement Book Class
   * [x] Implement User Class
+  * [x] design UML Classes **Managers, System**
+  * [x] Type OnlineReader Extentions
+  * [x] Type UserManager Extensions 
+  * [x] Implement Basic UserManager Features
+  * [x] Determine Operation Base  **_User or Book_**
 
 # Notes
 1. Testing
