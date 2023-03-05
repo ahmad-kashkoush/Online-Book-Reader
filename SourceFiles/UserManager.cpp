@@ -18,7 +18,7 @@ User UserManager::GetCurrent() {
 void UserManager::Login() {
         cout<<"Enter Username: ";
         string username;cin>>username;
-        cout<<"Enter Password ";
+        cout<<"Enter Password: ";
         string password; cin>>password;
         if(!UsernameToUser.count(username)){
             cout<<"Invalid Username or Password Please Try Again\n";
