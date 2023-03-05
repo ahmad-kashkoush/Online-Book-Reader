@@ -15,9 +15,9 @@ const string &Book::GetPageContent(int i)const{
 }
 
 void Book::EnterBookInformation(const string &isbn) {
-        cout<<"Enter Title";
+        cout<<"Enter Title:";
         string ttl;SetTitle(ttl);
-        cout<<"Enter How Many Pages";
+        cout<<"Enter How Many Pages:";
         int i; cin>>i;
         EnterPagesContent(i);
 }
