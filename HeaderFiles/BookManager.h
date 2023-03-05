@@ -4,5 +4,8 @@
 
 #ifndef ONLINEBOOKREADER_BOOKMANAGER_H
 #define ONLINEBOOKREADER_BOOKMANAGER_H
+#include "BookManager.h"
+class BookManager{
 
+};
 #endif //ONLINEBOOKREADER_BOOKMANAGER_H

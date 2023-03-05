@@ -6,8 +6,8 @@
 
 User::User():Admin(false){};
 
-User::User(const string &a, const string &b, const string &c, const string &d)
-:Username(a),Password(b),Name(c),Email(d){}
+User::User(const string &a, const string &b, const string &c, const string &d, bool ad)
+:Username(a),Password(b),Name(c),Email(d), Admin(ad){}
 
 const string &User::GetUsername() const {
     return Username;
@@ -57,4 +57,15 @@ void User::EnterUser(const string &usrName) {
     cin>>tmp;SetName(tmp);
     cout<<"Enter Email: ";
     cin>>tmp;SetEmail(tmp);
+}
+
+bool User::GetStatus() const {
+    return Admin;
+}
+
+void User::SayHello() const {
+    cout<<"Hello "<<GetName()<<" | ";
+    if(GetStatus())cout<<"Admin ";
+    else           cout<<"User ";
+    cout<<"view\n";
 }
