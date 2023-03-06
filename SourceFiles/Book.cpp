@@ -11,12 +11,13 @@ int Book::GetTotalNumberOfPages()const {return (int)Pages.size();}
 const string &Book::GetPageContent(int i)const{
     if(validPageNumber(i))
         return Pages[i-1];
-    return "";
+    string tmp;
+    return tmp;
 }
 
 void Book::EnterBookInformation(const string &isbn) {
         cout<<"Enter Title:";
-        string ttl;SetTitle(ttl);
+        string ttl;cin>>ttl;SetTitle(ttl);
         cout<<"Enter How Many Pages:";
         int i; cin>>i;
         EnterPagesContent(i);
@@ -39,7 +40,6 @@ void Book::SetPageContent(int i, const string &a) {
 
 Book::Book(const string &a, const string &b, int i)
     :ISBN(a),Title(b){
-    EnterPagesContent(i);
 
 }
 
@@ -47,7 +47,7 @@ void Book::EnterPagesContent(int i) {
     Pages.resize(i);
     for(int j=0;j<i;j++){
         cout<<"Enter Page # "<<j+1<<": ";
-        cin>>Pages[i];
+        cin>>Pages[j];
     }
 }
 
@@ -58,3 +58,11 @@ void Book::PrintPageContent(int i) const {
             cout<<tmp;
         }
 }
+
+Book::Book() {
+
+}
+
+//void Book::SetBooksInfoTmp(const string &, const string &, int) {
+//
+//}
