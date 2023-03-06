@@ -6,15 +6,7 @@
 * Day #4:
 * Day #5:
 * Day #6:
-  * Design
-    *  UML   Classes `It's Not a one time Task`
-      * Design After Simple Features
-       ![image](CamScanner%2003-04-2023%2012.04.jpg)
-
-  * Implement UserManager
-  * Implement BooksManager
 * Day #7:
-  * Debug and test the whole Project
 
 # Finished
   * [x] Implement Utilities and menus
@@ -26,7 +18,15 @@
   * [x] Type UserManager Extensions 
   * [x] Implement Basic UserManager Features
   * [x] Determine Operation Base  **_User or Book_**
+  * [x] Design
+    UML   Classes `It's Not a one time Task`
+      * Design After Simple Features
+       ![image](CamScanner%2003-04-2023%2012.04.jpg)
 
+  * [x] Implement UserManager
+  * [x] Implement BooksManager
+  * [x] Debug and test the whole Project
+  * [x] Uploading Demo For the project
 # Notes
 1. Testing
    * Test Your system after each session
