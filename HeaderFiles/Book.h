@@ -23,6 +23,7 @@ public:
     const string &GetPageContent(int i)const;
    void  SetIspbn(const string &);
    void  SetTitle(const string &);
+//   void SetBooksInfoTmp(const string&, const string &, int );
    void  SetPagesContent(const vector<string> &);
    void  SetPageContent(int , const string &);
 

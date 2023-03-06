@@ -3,6 +3,7 @@
 // 2. utilityFunctions
 #ifndef ONLINEBOOKREADER_UTILITIEFUNCTIONS_H
 #include<bits/stdc++.h>
+#include<ctime>
 #define el '\n'
 #define ll long long
 using namespace std;

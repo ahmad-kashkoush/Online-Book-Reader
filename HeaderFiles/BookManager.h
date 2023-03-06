@@ -9,17 +9,33 @@
 #include "User.h"
 class Session{
 private:
+    // date
 public:
+    string BookName;
+    int curPage;
+    int Total;
+    string Date;
+    Session(const string &a, int cur, int total):BookName(a),curPage(cur),Total(total){}
+    void Print(){
+        cout<<BookName<<" Current Page:"<<curPage<<"/"<<Total<<" "<<Date<<el;
+    }
+    void PrintCur(){
+        cout<<curPage<<"/"<<Total;
+    }
+    Session(){}
 };
 class BookManager{
 private:
     map<string, Book> NameToBook;
-    map<string, vector<string>> UsernameToBooksNames;
-    map<string, Session> BookNameToSession;
+    map<string, vector<Session>> UsernameToSession;
+
+    void AddSomeBooksTmp();
 public:
+    BookManager();
     void AddBook();
     int PrintBooks();
-
-
+    void ReadBook(const string &);
+    void ReadBookFromSession(const string &);
+    Session OpenSession( Session );
 };
 #endif //ONLINEBOOKREADER_BOOKMANAGER_H
