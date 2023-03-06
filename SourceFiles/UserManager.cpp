@@ -5,6 +5,7 @@
 #include "../HeaderFiles/UserManager.h"
 
 void UserManager::AccessSystem() {
+
     int Choice=Utility::ShowRegestrationMenu();
     if(Choice==1)Login();
     else        Signup();
@@ -42,6 +43,17 @@ void UserManager::Signup() {
             Users.emplace_back(Current);
             UsernameToUser[username]=Current;
         }
+}
+
+void UserManager::AddAdminTmp() {
+    User tmp("Ahmed","333","Ahmed_kashkoush","Kashkoush@Kashkoush.com",true);
+    Admin=tmp;
+    Users.emplace_back(Admin);
+    UsernameToUser[Admin.GetUsername()]=Admin;
+}
+
+UserManager::UserManager() {
+    AddAdminTmp();
 }
 
 

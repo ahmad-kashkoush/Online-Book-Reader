@@ -57,6 +57,7 @@ void User::EnterUser(const string &usrName) {
     cin>>tmp;SetName(tmp);
     cout<<"Enter Email: ";
     cin>>tmp;SetEmail(tmp);
+    Admin=false;
 }
 
 bool User::GetStatus() const {
